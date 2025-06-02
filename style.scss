@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    height: 15vh;
+    padding: 2rem 1.5rem 0;
+    box-shadow: 0px 8px 12px 0px rgba(116,0,165,0.76);
+
+    h1 {
+        display: inline-block;
+        font-size: 2.5rem;
+        margin: 0.5rem 0 0 3.5rem;
+        color: #7400A5;
+        font-family: "Poppins", sans-serif;
+    }
+
+    nav {
+        width: 85%;
+        display: inline-block;
+        text-align: center;
+
+        li {
+            display: inline-block;
+            width: 10vw;
+            height: 6vh;
+            text-align: center;
+            padding: 1rem;
+            margin-left: 3rem;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+
+            &:hover {
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+            }
+        }
+
+        a {
+            font-size: 1.25rem;
+            font-weight: 500;
+            color: #ffffff;
+            text-decoration: none;
+        }
+    }
+}
+
+#buttonFront {
+    background-color: #D80090;
+}
+
+#buttonBack {
+    background-color: #007BFF;
+}
+
+#buttonCiberseguranca {
+    background-color: #D84800;
+}
+
+#buttonIA {
+    background-color: #5E9000;
+}
+
+#buttonDataScience {
+    background-color: #D99800;
+}
+
+#buttonDevops {
+    background-color: #59007F;
+}
+
+.sobreTrilhaDev {
+    background-image: url('./imgs/fundoSobre.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+
+    h2 {
+        width: 35%;
+        font-size: 1.75rem;
+        font-family: "Poppins", sans-serif;
+        color: #59007F;
+        padding: 10rem 0 2rem 6rem;
+    }
+
+    p {
+        width: 40%;
+        font-size: 1.5rem;
+        padding: 1rem 0 1rem 6rem;
+    }
+}
+
+.cardCarreira {
+    border-radius: 10px;
+    width: 70%;
+    margin: 5rem 0 0 18rem;
+    height: 55vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    div {
+        width: 50%;
+        height: 50vh;
+        padding: 1rem 0 0 2rem;
+        display: inline-block;
+        
+        h2 {
+            font-size: 2.125rem;
+            font-family: "Poppins", sans-serif;
+        }
+        
+        h3 {
+            padding-bottom: 1rem;
+        }
+
+        p {
+            margin: 1.8rem 0;
+            font-size: 1.125rem;
+        }
+        
+        li {
+            margin-left: 1rem;
+        }
+    }
+
+    iframe {
+        display: inline-block;
+        margin: 7rem 0 0 4rem;
+    }
+}
+
+#front-end {
+    background-color: #ff00aa38;
+
+    h2 {
+        color: #D80090;
+    }
+}
+
+#back-end {
+    background-color: #034ef04e;
+
+    h2 {
+        color: #034EF0;
+    }
+}
+
+#ciberseguranca {
+    background-color: #d865002d;
+
+    h2 {
+        color: #D86500;
+    }
+}
+
+#ia {
+    background-color: #5e90002c;
+
+    h2 {
+        color: #5E9000;
+    }
+}
+
+#dataScience {
+    background-color: #d9980035;
+
+    h2 {
+        color: #D99800;
+    }
+}
+
+#devops {
+    background-color: #59007f3a;
+
+    h2 {
+        color: #59007F;
+    }
+}
+
+footer {
+    margin-top: 5rem;
+    background-color: #59007F;
+    height: 10vh;
+    color: #fff;
+    font-size: 1.25rem;
+    padding-top: 2.5rem;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+
+    a {
+        color: #ffb4e6;
+        font-family: "Poppins", sans-serif;
+        font-size: 1.375rem;
+    }
+}
